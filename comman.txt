@@ -1,0 +1,13 @@
+
+
+
+
+
+yolo train data=ultralytics/cfg/datasets/myhat.yaml model=yolov8n.pt epochs=10 lr0=0.01 batch=4
+
+
+
+
+
+
+yolo predict model=runs/detect/train12/weights/best.pt source=ultralytics/assets/guowang1.jpg
